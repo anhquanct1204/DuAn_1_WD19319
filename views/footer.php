@@ -51,7 +51,7 @@
                 <div class="col-lg-3 col-md-3 col-md-4 col-sm-6 col-12 my-2">
                     <h6>LIÊN HỆ</h6>
                     <ul class="nav-footer">
-                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Tầng 10, số 60 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Tp Hồ Chí Minh.</a></li>
+                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>Tòa nhà FPT Polytechnic., Cổng số 2, 13 P. Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội</a></li>
                         <li><a href="#"><i class="fa-solid fa-chevron-right"></i>1900 54 54 40 (1000đ/phút)</a></li>
                         <li><a href="#"><i class="fa-solid fa-chevron-right"></i>anhquanct1204@gmail.com</a></li>
                         <li><a href="#"><i class="fa-solid fa-chevron-right"></i>2008 Công Ty Cổ Phần Dịch Vụ Du Lịch Hai Bốn.</a></li>

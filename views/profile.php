@@ -27,7 +27,7 @@
         
     }
     .nav-profile li:hover {
-        background-color : #4790cd ;
+        background-color : #5fcb6e ;
     }
     .nav-profile li:hover a {
         color : white ;
@@ -53,7 +53,7 @@
         padding: 5px 10px;
     }
     .card-title-1 {
-        background-color : #4790cd;
+        background-color : #5fcb6e;
         color : white ;
     }
     .fa-id-card  , .fa-user {

@@ -23,25 +23,25 @@
         <div class="row row-responsive">
             <div class="col-lg-3 col-md-3 col-md-4 col-sm-6 col-12 my-2">
                 <div class="card">
-                    <label for="" class="search-label">ĐIỂM ĐẾN</label>
+                    <label for="" class="search-label h2">ĐIỂM ĐẾN</label>
                     <input type="text" id="nameHotelSearch" name="nameHotel" placeholder="Tên khách sạn" class="form-control my-1">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-md-4 col-sm-6 col-12 my-2">
                 <div class="card">
-                    <label for="" class="search-label">NGÀY NHẬN PHÒNG</label>
+                    <label for="" class="search-label h2">NGÀY NHẬN PHÒNG</label>
                     <input id="myID" name="checkIn" placeholder="Ngày đến..." class="form-control my-1 checkInSearch">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-md-4 col-sm-6 col-12 my-2">
                 <div class="card">
-                    <label for="" class="search-label">NGÀY TRẢ PHÒNG</label>
+                    <label for="" class="search-label h2">NGÀY TRẢ PHÒNG</label>
                     <input name="checkOut" placeholder="Ngày đi..." id="myID" class="form-control my-1 checkOutSearch">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-md-4 col-sm-6 col-12 my-2">
                 <div class="card">
-                    <label for="" class="search-label">SỐ NGƯỜI</label>
+                    <label for="" class="search-label h2">SỐ NGƯỜI</label>
                     <input type="number" name="quantity" id="quantitySearch" min="0" step="1" placeholder="Số người" class="form-control my-1">
                 </div>
             </div>
@@ -60,7 +60,7 @@
 <div class="row" style="padding: 10px;margin-top: 20px;">
     <div class="col-md-4 col-sm-6 col-12 my-2" style="padding: 20px;background-color: #ffffff;">
         <div class="card">
-            <img src="./image/Anh1.jpg" class="card-img-top" alt="Lỗi tải ảnh">
+            <img src="./image/anh6.jpg" class="card-img-top" alt="Lỗi tải ảnh">
             <div class="card-name">
                 <h6 class="card-title my-2">ĐIỂM ĐẾN HẤP DẪN</h6>
             </div>
@@ -68,7 +68,7 @@
     </div>
     <div class="col-md-4 col-sm-6 col-12 my-2" style="padding: 20px;background-color: #ffffff;">
         <div class="card">
-            <img src="./image/Anh2.jpg" class="card-img-top" alt="Lỗi tải ảnh">
+            <img src="./image/anh7.jpg" class="card-img-top" alt="Lỗi tải ảnh">
             <div class="card-name">
                 <h6 class="card-title my-2">DỊCH VỤ CAO CẤP</h6>
             </div>
