@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f0;
+}
+.navbar {
+    background-color: #5fcb6e;
+    
+}
+.btn-contact {
+    cursor: pointer;
+}
+.logo {
+    width : 120px ;
+    height :30px ;
+}
+.header {
+    position: relative;
+}
+#carouselExampleRide {
+    position: relative;
+}
+.row-responsive {
+    background-color: rgb(#B5B5B4 , #000000 , #ffffff , 1);
+    width : 70% ;
+    position: absolute;
+    top : 50% ;
+    left : 50% ;
+    transform: translate(-50% , -50%);
+    z-index: 999;
+}
+.search-label {
+    font-size: 13px;
+}
+.card {
+    background-color: transparent;
+    border : none ;
+}
+
+.transparent {
+    color : transparent ;
+}
+.search-room {
+    display: none;
+}
+.btn-search-room {
+    background-color: #5fcb6e;
+    color : #fff ;
+}
+@media (width < 1200px) {
+    .row-responsive {
+        display: none;
+    }
+    .search-room {
+        display: block;
+    }
+}
+/* Phần footer */
+.logo-footer {
+    width : 150px ;
+    height : auto ;
+}
+.text-description {
+    font-size: 14px;
+    text-align: justify;
+}
+.row .nav-footer  {
+    list-style: none;
+    padding: 0;
+}
+.nav-footer {
+    list-style: none;
+    padding: 0;
+}
+.nav-footer li {
+    margin-top: 7px;
+}
+.nav-footer li a {
+    text-decoration: none;
+    color: #000000;
+}
+.fa-chevron-right {
+    color: green;
+    padding-right: 7px;
+    font-size: 10px;
+}
+#carouselExampleSlidesOnly {
+    margin-top: 20px;
+}
+#login , #forgot {
+    position: relative;
+    width : 100% ;
+    height : 350px ;
+    
+}
+#signup {
+    position: relative;
+    width : 100% ;
+    height : 450px ;
+}
+#login {
+    background-image: url('../image/banner\ 2.jpg');
+}
+#signup {
+    background-image: url('../image/banner\ 1.jpg');
+}
+#forgot {
+    background-image: url('../image/banner\ 3.jpg');
+}
+#login form , #signup form , #forgot form , .notification{
+    width : 350px ;
+    background-color: #fff;
+    position: absolute;
+    top : 50% ;
+    left : 50% ;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    padding: 0 25px;
+    padding-bottom: 25px;
+}
+.notification {
+    padding-top: 10px;
+}
+#login form div:last-child , #signup form div:last-child , #forgot form div:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+#login form div:last-child a , #signup form div:last-child a , #forgot form div:last-child a{
+    text-decoration: none;
+    color: #a0b4c9;
+}
+
+.fa-check {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 7px;
+    background-color: #5fcb6e;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+/* Phần quản trị */
+
+.nav-admin {
+    background-color: #e3e3e3;
+}
+.nav-admin ul {
+    list-style: none;
+    padding-left : 0 ;
+}
+.nav-admin ul li {
+    padding : 5px 0 ; 
+}
+.nav-admin ul li a {
+    text-decoration: none;
+    margin-left : 10px ;
+    color : black ;
+    
+    
+}
+.nav-admin ul li:hover {
+    background-color: #5fcb6e;
+}
+
+.nav-admin ul li:hover a{
+    color: #ffffff;
+}
+
+.nav-admin-table {
+    display: none;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap : 15px ;
+    margin-top : 10px ;
+}
+.box-details {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap : 15px ;
+    margin-top : 10px ;
+}
+@media (width < 992px) {
+    .box , .box-details {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav-admin-table {
+        display: block;
+    }
+    .nav-admin {
+        display: none;
+    }
+    
+    
+}
+
+.button-admin {
+    border: 1px solid black;
+    
+}
+
