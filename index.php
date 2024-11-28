@@ -10,6 +10,7 @@
     require './model/reservation.php' ;
     require './model/statistical.php' ;
     require './model/pay.php' ;
+    require './model/status.php' ;
     require './views/header.php' ;
 
     // Kiểm tra trạng thái đặt phòng đã quá hạn thanh toán hay chưa ;
@@ -563,7 +564,50 @@
                 }
                 break ;
             }
-            
+              // Quản lý trạng thái trong trang admin ;
+              case 'managerStatus' : {
+                if(isset($_SESSION['login']) && isset($_SESSION['role']) && $_SESSION['role'] == 1) {
+                    // Lấy ra danh sách trạng thái ;
+                    $listStatus = getStatus() ;
+
+                    // Thêm trạng thái ;
+                    if(isset($_POST['btn-add-status'])) {
+                        createStatus($_POST['name-status']) ;
+                    }
+
+                    // Xóa từng trạng thái
+                    if(isset($_GET['DeleteStatusID'])) {
+                        deleteStatus($_GET['DeleteStatusID']) ;
+                    }
+
+                    // Xóa nhiều trạng thái cùng một lúc ;
+                    if(isset($_POST['delete_checked_status'])) {
+                        $list_delete_statusID = $_POST['check'] ;
+                        foreach($list_delete_statusID as $listStatusID => $statusID) {
+                            deleteStatus($statusID) ;
+                        }
+                    }
+
+                    require './views/admin/status/managerStatus.php' ;
+                    }
+                break ;
+            }
+
+            case 'updateStatus' : {
+                if(isset($_SESSION['login']) && isset($_SESSION['role']) && $_SESSION['role'] == 1) {
+                    if(isset($_GET['UpdateStatusID'])) {
+                        // Lấy thông tin trạng thái theo ID ;
+                        $StatusID = getStatusID($_GET['UpdateStatusID']) ;
+                        // Cập nhật trạng thái ;
+                        if(isset($_POST['btn-update-status'])) {
+                            updateStatus($_POST['statusID'] , $_POST['name-status']) ;
+                        }
+
+                    }
+                    require './views/admin/status/updateStatus.php' ;
+                }
+                break ;
+            }
             default : {
                 $topReservationHotel = topReservationHotel() ;
                 $topViews = topViewsHotel() ;

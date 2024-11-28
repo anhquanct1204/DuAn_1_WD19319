@@ -11,6 +11,7 @@
         <li><a href="?action=managerRoom">Quản lý phòng</a></li>
         <li><a href="?action=listReservation">Danh sách đặt phòng</a></li>
         <li><a href="?action=managerUsers">Quản lí người dùng</a></li>
+        <li><a href="?action=managerStatus">Quản lí trạng thái</a></li>
         <li><a href="?action=managerPay">Quản lý thanh toán</a></li>
     </ul>
 </div>
@@ -23,6 +24,7 @@
                 <th><a class="text-white" href="?action=managerRoom">Quản lý phòng</a></th>
                 <th><a class="text-white" href="?action=listReservation">Danh sách đặt phòng</a></th>
                 <th><a class="text-white" href="?action=managerUsers">Quản lí người dùng</a></th>
+                <li><a href="?action=managerStatus">Quản lí trạng thái</a></li>
                 <th><a href="?action=managerPay">Quản lý thanh toán</a></th>
             </tr>
         </thead>
