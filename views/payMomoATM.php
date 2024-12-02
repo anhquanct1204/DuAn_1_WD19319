@@ -31,8 +31,8 @@ $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
 $orderInfo = "Thanh toán qua ATM MoMo";
 $amount = $ReservationID -> TotalAmount;
 $orderId = time() ."";
-$redirectUrl = "http://localhost/project/?action=historyBookingRoom";
-$ipnUrl = "http://localhost/project/?action=historyBookingRoom";
+$redirectUrl = "http://localhost/DuAn_1_WD19319/?action=historyBookingRoom";
+$ipnUrl = "http://localhost/DuAn_1_WD19319/?action=historyBookingRoom";
 $extraData = $ReservationID -> ReservationID;
 
 
