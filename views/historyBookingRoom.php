@@ -27,7 +27,7 @@
         
     }
     .nav-profile li:hover {
-        background-color : #4790cd ;
+        background-color : #5fcb6e ;
     }
     .nav-profile li:hover a {
         color : white ;
